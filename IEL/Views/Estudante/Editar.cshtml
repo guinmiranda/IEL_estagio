@@ -1,0 +1,51 @@
+﻿@model EstudanteModel
+@{
+    ViewData["Title"] = "Editar Estudante";
+}
+<div class="text-center">
+    <h1 class="display-4"> Editar Estudante</h1>
+
+
+</div>
+
+<form asp-controller="Estudante" asp-action="Editar" method="post">
+    
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label for="nome">Nome</label>
+        <input type="text" asp-for="Nome" class="form-control" placeholder="Digite seu nome">
+    </div>
+    <div class="form-group">
+        <label for="CPF">CPF</label>
+        <input type="text" asp-for="CPF" class="form-control" placeholder="000.000.000-00">
+    </div>
+    <div class="form-group">
+        <label for="Endereço">Endereço</label>
+        <input type="text" asp-for="Endereco" class="form-control" placeholder="Digite seu endereço">
+    </div>
+    <div class="form-group">
+        <label for="Data de Conclusão">Data de Conclusão</label>
+        <input type="date" asp-for="DataDeConclusao" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-primary">Editar</button>
+    <a class="btn btn-secondary" asp-controller="Estudante" asp-action="Index">Voltar</a>
+</form>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function() {
+        // Selecione o campo CPF pelo nome
+        $('input[name="CPF"]').on('input', function() {
+            // Remove tudo que não for número
+            var cpf = $(this).val().replace(/\D/g, '');
+
+            // Se o CPF tiver até 11 caracteres, aplica a formatação
+            if (cpf.length <= 11) {
+                cpf = cpf.replace(/(\d{3})(\d{3})(\d{3})(\d{2})/, "$1.$2.$3-$4");
+                $(this).val(cpf);  // Atualiza o valor do campo
+            }
+        });
+    });
+</script>
+
+

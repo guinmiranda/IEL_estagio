@@ -1,0 +1,10 @@
+﻿@model EstudanteModel
+@{
+    ViewData["Title"] = "Confirmação de exclusão";
+}
+<div class="text-center">
+    <h3>Deseja excluir o cadastro do estudante @Model.Nome?</h3>
+</div>
+    <a class="btn btn-primary w-100 my-2" asp-controller="Estudante" asp-route-id="@Model.Id" asp-action="Apagar">SIM</a>
+    <a class="btn btn-danger w-100 my-2" asp-controller="Estudante" asp-action="Index">NÃO</a>
+
