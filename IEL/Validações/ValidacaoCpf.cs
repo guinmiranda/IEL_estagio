@@ -2,9 +2,9 @@
 using System.ComponentModel.DataAnnotations;
 using System.Text.RegularExpressions;
 
-namespace IEL.Validações  // Namespace atualizado
+namespace IEL.Validações 
 {
-    public class ValidacaoCpf : ValidationAttribute  // Nome da classe alterado para ValidacaoCpf
+    public class ValidacaoCpf : ValidationAttribute  
     {
         public ValidacaoCpf() : base("O CPF informado é inválido.") { }
 

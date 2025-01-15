@@ -526,3 +526,4 @@ C:\Users\almon\OneDrive\Área de Trabalho\Projetos\IEL\IEL\bin\Debug\net9.0\runt
 C:\Users\almon\OneDrive\Área de Trabalho\Projetos\IEL\IEL\obj\Debug\net9.0\IEL.csproj.AssemblyReference.cache
 C:\Users\almon\OneDrive\Área de Trabalho\Projetos\IEL\IEL\obj\Debug\net9.0\IEL.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\almon\OneDrive\Área de Trabalho\Projetos\IEL\IEL\obj\Debug\net9.0\IEL.csproj.Up2Date
+C:\Users\almon\OneDrive\Área de Trabalho\Projetos\IEL\IEL\obj\Debug\net9.0\IEL.sourcelink.json
