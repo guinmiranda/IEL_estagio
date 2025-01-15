@@ -1,6 +1,6 @@
 Cadastro de Estudantes IEL:
 
-Primeiramento agradeço ao IEL pela oportunidade de aprender e de sair da zona de conforto, gostei muito do desafio que foi fazer esse projeto aprendendo tudo praticamente do zero :) 
+Primeiramente agradeço ao IEL pela oportunidade de aprender e de sair da zona de conforto, gostei muito do desafio que foi fazer esse projeto aprendendo tudo praticamente do zero :) 
 
 Esse é um sistema desenvolvido para gerenciar o cadastro de estudantes do IEL. A aplicação permite cadastrar, editar, listar e excluir estudantes, mantendo informações como nome, CPF, endereço e data de conclusão.
 
@@ -39,8 +39,7 @@ Configure as variáveis de ambiente necessárias, como string de conexão do ban
 ASP.NET MVC: Framework utilizado para o desenvolvimento da aplicação web.
 Entity Framework: ORM utilizado para facilitar a interação com o banco de dados SQL Server.
 SQL Server: Banco de dados utilizado para armazenar as informações dos estudantes.
-🖇️ Colaborando
-Por favor, leia o COLABORACAO.md para obter detalhes sobre o nosso código de conduta e o processo para nos enviar pedidos de solicitação.
+
 
 ✒️ Autor
 Guilherme Miranda - https://www.linkedin.com/in/guinmiranda/
