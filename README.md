@@ -1,6 +1,8 @@
 Cadastro de Estudantes IEL:
 
-Um sistema desenvolvido para gerenciar o cadastro de estudantes do IEL. A aplicação permite cadastrar, editar, listar e excluir estudantes, mantendo informações como nome, CPF, endereço e data de conclusão.
+Primeiramento agradeço ao IEL pela oportunidade de aprender e de sair da zona de conforto, gostei muito do desafio que foi fazer esse projeto aprendendo tudo praticamente do zero :) 
+
+Esse é um sistema desenvolvido para gerenciar o cadastro de estudantes do IEL. A aplicação permite cadastrar, editar, listar e excluir estudantes, mantendo informações como nome, CPF, endereço e data de conclusão.
 
 🚀 Começando
 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
@@ -43,4 +45,3 @@ Por favor, leia o COLABORACAO.md para obter detalhes sobre o nosso código de co
 ✒️ Autor
 Guilherme Miranda - https://www.linkedin.com/in/guinmiranda/
 
-Agradeço ao IEL pela oportunidade de aprender e de sair da zona de conforto, gostei muito do desafio que foi fazer esse projeto :) 
